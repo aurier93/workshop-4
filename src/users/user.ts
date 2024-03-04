@@ -9,7 +9,7 @@ type Body = {
 export async function user(userId: number) {
   const _user = express();
   _user.use(express.json());
-  _user.use(bodyParser.json());
+  _user.use(bodyParser.json());:
 
   let lastReceivedMessage: string | null = null;
   let lastSentMessage: string | null = null;
